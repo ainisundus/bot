@@ -1,0 +1,107 @@
+.login-container {
+    background-color: #ffffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 60px;
+  }
+  
+  .login button:hover {
+    cursor: pointer;
+  }
+  
+  .login-form-container {
+    margin-top: 50px;
+    width: 348px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    border: 1px solid lightgray;
+    padding: 20px 26px;
+    font-size: 13px;
+    line-height: 19px;
+  }
+  
+  .login-form-container>h5 {
+    margin-bottom: 5px;
+    font-weight: 300;
+    margin-bottom: 1px;
+    font-family: "Quicksand", sans-serif;;
+  }
+  
+  .login-form-container>p {
+    font-size: 12px !important;
+    line-height: 1.5;
+    margin-top: 5px;
+  }
+  
+  .login-form-container>form>input {
+    width: calc(100% - 30px);
+    height: 25px;
+    padding: 3px 7px;
+    margin-bottom: 1px;
+  }
+  
+  .login-signInButton {
+    width: 100px;
+    padding: 6px;
+    background-color: #f1c65c;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    margin-top: 20px;
+    color: #111;
+    border-radius: 3px;
+    margin-left: 120px;
+    margin-bottom: 10px;
+  }
+  
+  .login-form-container form h5 {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  .login-newToVacaybot {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    font-size: 12px;
+    color: rgb(118, 118, 118);
+  }
+  .login-registerButton{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+    font-size: 12px;
+    color: rgb(66, 25, 177);
+  }
+  .password {
+    position: relative;
+    display: flex;
+}
+
+.password input {
+    width: calc(100% - 30px);
+    height: 30px;
+    padding: 3px 7px;
+    margin-bottom: 4px;
+}
+
+.password-toggle-icon {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.password-toggle-icon svg {
+    width: 16px;
+    height: 20px;
+    fill: #1a0606; /* Sesuaikan warna ikon sesuai kebutuhan */
+}

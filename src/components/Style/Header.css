@@ -1,0 +1,146 @@
+
+
+.vacaybot__navbar {
+    height: 60px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    justify-content: space-between; /* Tambahkan properti ini */
+    align-items: center; /* Opsional untuk perataan vertikal */
+    font-family: 'Times New Roman', Times, serif
+  }
+  
+  .topbarLeft {
+    flex: 3;
+  }
+  
+  .logo {
+    font-size: 24px;
+    margin-left: 10px;
+    width: 120px;
+    
+  }
+  
+  .topbarCenter {
+    flex: 5;
+  }
+  
+
+  .vacaybot__navbar_links {
+    display: flex;
+    flex-direction: row;
+    color: #992929;
+ }
+
+  .vacaybot_link  a {
+    
+    margin-right: 10px;
+    cursor: pointer;
+    color: #1D6ECD;
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+  .topbarIcons {
+    display: flex;
+  }
+  
+  .topbarIconItem {
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .topbarImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  .sub-menu-wrap {
+    position: absolute;
+    top: 100%;
+    right: 6%;
+    width: 270px;
+  }
+  .sub-menu-link-edit:hover {
+    padding-left: 1.5rem;
+  }
+  .sub-menu {
+    background: #ffffff;
+    padding: 20px;
+    margin-top: 10px;
+    margin-right: -12px;
+    border-radius: 10px;
+    border: 2px solid #00000031; /* Warna dan ketebalan garis dapat diubah */
+    border-style: dotted;
+
+  }
+  .user-info {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+
+  }
+  .user-info p {
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+    color: #1D6ECD;
+    font-weight: bold;
+
+  }
+  .user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  .sub-menu hr {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background-color: rgb(54, 49, 45);
+    margin: 15px 0 10px;
+  }
+  
+  .sub-menu-link-edit {
+    display: flex;
+    align-items: center; /* Added line */
+    flex-direction: row;
+  }
+  .sub-menu-link-edit p {
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
+  }
+  .sub-menu-link-edit a {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+  }
+  .sub-menu-link-edit svg {
+    margin-left: 5px;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 1%;
+    margin-right: 7px;
+    width: 25px;
+    height: 20px;
+    margin-top: 3%;
+  }

@@ -1,0 +1,30 @@
+.history {
+
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+    .history-data h2 {
+        margin-bottom: 1px;
+        text-align: center;
+        color: #1D6ECD;
+    }
+    .history-logo{
+        display: flex;
+        align-items: center;
+        flex-direction: row;      
+    }
+    .history-logo h3 {
+        font-size: 20px;
+    }
+    .history-data svg {
+        background: #ffffff;
+        border-radius: 50%;
+        padding: 1%;
+        width: 25px;
+        height: 20px;
+    }
+    .history-item p{
+        margin-top: 3px;
+        text-align: justify;
+    }

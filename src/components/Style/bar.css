@@ -1,0 +1,75 @@
+.wrapper {
+ position: sticky;
+ margin-top: 40%;
+ margin-bottom: 40%;
+  }
+  
+  .menu_profil,
+  .menu_chat {
+    margin: 1px 0; /* Adjust margin here */
+    width: 100%;
+    text-align: right;
+    
+  }
+  
+  .menu_profil h3 {
+    cursor: pointer;
+    text-align: left;
+    margin-top: 50%;
+    margin-bottom: 0%;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 20px;
+    font-weight: 200;
+  }
+  .menu_chat h3 {
+    cursor: pointer;
+    text-align: left;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 20px;
+    font-weight: 200;
+  }
+  
+  .submenu {
+    position: center;
+    left: 0;
+    padding: 10px;
+    z-index: 1;
+    margin-left: 50%;
+    text-align: center;
+    justify-content: right;
+
+    margin: 0px;
+  }
+  
+  .menu_chat .submenu {
+    top: 1px;
+  }
+  
+  .menu_profil .submenu {
+    top: 1px;
+  }
+  
+  .submenu a {
+    color: #000;
+    text-decoration: none;
+  }
+  .submenu p {
+    font-size: 15px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 40%;
+  }
+  .submenu a:hover {
+    color: rebeccapurple;
+  }
+  
+  /* Menghilangkan garis bawah pada link profile */
+  .menu_profil .submenu a {
+    text-decoration: none;
+  }
+
+  

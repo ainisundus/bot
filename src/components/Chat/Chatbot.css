@@ -1,0 +1,32 @@
+.chatbot__ {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.chatbot-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  margin-right: 20px; /* Add margin for spacing */
+}
+
+.chatbot-container {
+  display: flex;
+  justify-content: center;
+}
+
+.chatbot__css {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+/* You might want to remove this style as it's not necessary for centering:
+.chatbot__css {
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+*/
